@@ -1,0 +1,19 @@
+# Ignore large files
+*.h5
+*.mp4
+*.wav
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore folders that contain large files
+creating_spectrogram_batches/json files
+creating_spectrogram_batches/saved_models
+
+# Ignore files that are irrelevant
+# train and test song names were just created and overwritten in batches
+creating_spectrogram_batches/test_song_names.json
+creating_spectrogram_batches/train_song_names.json
+# mel_segmentation is no longer necessary, the segmentation now happens when creating
+# the batches in the create_mel_spectrograms.py file.
+4_mel_segmentation.ipynb
