@@ -8,7 +8,8 @@
 
 # Ignore folders that contain large files
 creating_spectrogram_batches/json files
-creating_spectrogram_batches/saved_models
+saved_models
+creating_spectrogram_batches/final_data
 
 # Ignore files that are irrelevant
 # train and test song names were just created and overwritten in batches
